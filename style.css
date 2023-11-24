@@ -1,0 +1,353 @@
+.nav{
+    width: 80vw;
+    background-color: rgb(240, 231, 150);
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    border-top-left-radius:100px;
+    border-left:solid red 20px;
+    justify-content: center;
+    border-bottom-right-radius:100px;
+    border-right:solid red 20px;
+    margin-left: 100px;
+
+
+
+}
+#imglogo{
+    width:90px;
+    height: 90px;
+    border-radius: 50%;
+    border: solid rgb(0, 0, 0) 4px;
+}
+#school-name{
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    background-color: rgb(212, 245, 237);
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+    border-left: black 30px solid;
+    border-right: black 30px solid;
+    border-bottom-left-radius:100px;
+    border-top-right-radius:100px;
+    margin-top: 20px;
+}
+.but{
+    background: none;
+    width: 100px;
+    height: 30px;
+    font-size:15px;
+    color: black;
+    font-weight: 600;
+    border: none;
+    margin-left: 50px;
+}
+.but:hover{
+    background-color: black;
+    color:white;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+}
+.buts1{
+    background-color: rgb(238, 23, 3);
+    width: 160px;
+    height: 30px;
+    font-size:15px;
+    color:white;
+    font-weight: 600;
+    border: none;
+    margin-left: 50px;
+    border-top-left-radius:30px;
+    border-bottom-right-radius: 30px;
+
+}
+.buts1:hover{
+    background-color: black;
+    color:white;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    border-top-left-radius:0%;
+    border-bottom-right-radius:0%;
+}
+.box3{
+    margin-top: 60px;
+    margin-left: 3em;
+    margin-bottom: 100px;
+}
+#p2{
+    color: rgb(44, 42, 42);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 0%;
+    
+}
+
+#p3{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    margin-top: 0%;
+}
+.box4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+.box4a{
+    height: 50vh;
+    width: 20vw;
+    border-top-left-radius:100px;
+    border-bottom-right-radius:100px;
+    display: flex;
+    justify-content: center;
+}
+#box4a1{
+    background-color: rgb(60, 255, 0);
+}
+#box4a2{
+    background-color: rgb(255, 251, 0);
+}
+#box4a3{
+    background-color: rgb(255, 53, 27);
+}
+#box4a4{
+    background-color: rgb(255, 0, 64);
+}
+.but4{
+    width: 150px;
+    height: 80px;
+    border: none;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    background-color: black;
+    color:white;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.but4:hover{
+    background-color:rgb(246, 222, 9);
+    color:black;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.box4ab{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.para1{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.end{
+    background-color: white;
+    height: 300px;
+    margin-top: 3.5em;
+    margin-bottom: 70px;
+}
+.end1{
+    float: right;
+    margin-right: 100px;
+}
+#endp1{
+    font-size: 30px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.endbut{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: rgb(255, 30, 0);
+    margin-left: 200px;
+}
+.endbut:hover{
+    background-color: black;
+    border-bottom-left-radius: 0%;
+    border-top-right-radius: 0%;
+    cursor: pointer;
+}
+.img1{
+    position: absolute;
+    left: 75vw;
+    top: 40vh;
+    height: 300px;
+    width: 300px;
+}
+#img2{
+    width: 45%;
+    height: 100%;
+
+}
+.boxend{
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    background:url("black.jpg");
+    color: white;
+    margin-top: 50px;
+    padding: 10px;
+}
+#adress{
+    font-size: 20px;
+    margin-top: 0%;
+    margin-left: 550px;
+}
+
+.buts{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    margin-top: 20px;
+
+}
+#hov:hover{
+    width: 65px;
+    height: 65px;
+    font-size: 110%;
+    cursor: pointer;
+    font-size: 45px;
+}
+#hovs:hover{
+    background-color:white;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+}
+.facebook{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 45%;
+}
+.gmail{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    background-color: rgb(251, 43, 7);
+    color: white;
+    text-align: center;
+    position:absolute;
+    left: 50%;
+}
+.in{
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    background-color: rgb(6, 6, 95);
+    color: white;
+    text-align: center;
+    position:absolute;
+    left: 55%;
+}
+
+.mid1{
+    width:100vw;
+    height: 50vh;
+    background:url("dog.jpg");
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius:40px ;
+
+}
+.mid1a{
+    width: 20%;
+    height: 70%;
+    background-color: white;
+    border-top-right-radius:100px;
+    border-bottom-right-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.am1{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(241, 40, 13);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#am1content{
+    font-size: 30px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+}
+.mid1b{
+    margin-left: 5%;
+    display: flex;
+}
+.bm1{
+    font-size: 2.5em;
+    font-weight: 800;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imc{
+    width: 300px;
+    height: 90%;
+}
